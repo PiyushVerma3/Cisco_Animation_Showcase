@@ -1,0 +1,246 @@
+body {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+    background: #efebea;
+    position: fixed;
+  }
+  .container,
+  .ghost
+  {
+    position:absolute;
+  }
+  .ghost{
+    right:30px;
+    bottom:50px;
+    width:5px;height:5px;
+    background:#2d2834;
+    box-shadow: 
+      5px 0 0 0 #2d2834,
+      10px 0 0 0 #2d2834,
+      15px 0 0 0 #2d2834,
+      20px 0 0 0 #2d2834,
+      25px 0 0 0 #2d2834,
+      25px 5px 0 0 #2d2834,
+      30px 5px 0 0 #2d2834,
+      35px 5px 0 0 #2d2834,
+      40px 5px 0 0 #2d2834,
+      45px 10px 0 0 #2d2834,
+      50px 15px 0 0 #2d2834,
+      50px 20px 0 0 #2d2834,
+      55px 20px 0 0 #2d2834,
+      55px 25px 0 0 #2d2834,
+      55px 30px 0 0 #2d2834,
+      55px 35px 0 0 #2d2834,
+      55px 40px 0 0 #2d2834,
+      60px 45px 0 0 #2d2834,
+      60px 50px 0 0 #2d2834,
+      60px 55px 0 0 #2d2834,
+      65px 55px 0 0 #2d2834,
+      70px 50px 0 0 #2d2834,
+      75px 45px 0 0 #2d2834,
+      80px 45px 0 0 #2d2834,
+      85px 50px 0 0 #2d2834,
+      75px 50px 0 0 #2d2834,
+      75px 55px 0 0 #2d2834,
+      75px 60px 0 0 #2d2834,
+      70px 65px 0 0 #2d2834,
+      65px 65px 0 0 #2d2834,
+      65px 70px 0 0 #2d2834,
+      60px 75px 0 0 #2d2834,
+      60px 80px 0 0 #2d2834,
+      55px 80px 0 0 #2d2834,
+      50px 85px 0 0 #2d2834,
+      45px 85px 0 0 #2d2834,
+      40px 85px 0 0 #2d2834,
+      35px 85px 0 0 #2d2834,
+      30px 85px 0 0 #2d2834,
+      25px 85px 0 0 #2d2834,
+      20px 85px 0 0 #2d2834,
+      20px 80px 0 0 #2d2834,
+      15px 80px 0 0 #2d2834,
+      10px 80px 0 0 #2d2834,
+      5px 80px 0 0 #2d2834,
+      5px 75px 0 0 #2d2834,
+      0px 75px 0 0 #2d2834,
+      -5px 75px 0 0 #2d2834,
+      -5px 70px 0 0 #2d2834,
+      -10px 70px 0 0 #2d2834,
+      -15px 65px 0 0 #2d2834,
+      -15px 60px 0 0 #2d2834,
+      -20px 60px 0 0 #2d2834,
+      -20px 55px 0 0 #2d2834,
+      -20px 50px 0 0 #2d2834,
+      -20px 45px 0 0 #2d2834,
+      -20px 40px 0 0 #2d2834,
+      -20px 35px 0 0 #2d2834,
+      -20px 30px 0 0 #2d2834,
+      -15px 25px 0 0 #2d2834,
+      -15px 20px 0 0 #2d2834,
+      -15px 15px 0 0 #2d2834,
+      -10px 10px 0 0 #2d2834,
+      -10px 5px 0 0 #2d2834,
+      -5px 5px 0 0 #2d2834,
+      -25px 35px 0 0 #3a3640,
+      -30px 40px 0 0 #3a3640,
+      -30px 45px 0 0 #3a3640,
+      -30px 50px 0 0 #3a3640,
+      -25px 55px 0 0 #3a3640,
+      -25px 50px 0 0 #978ca5,
+      -25px 45px 0 0 #c7c1d0,
+      -10px 65px 0 0 #978ca5,
+      0px 70px 0 0 #978ca5,
+      10px 75px 0 0 #978ca5,
+      15px 75px 0 0 #978ca5,
+      20px 75px 0 0 #978ca5,
+      25px 80px 0 0 #978ca5,
+      30px 80px 0 0 #978ca5,
+      35px 80px 0 0 #978ca5,
+      40px 80px 0 0 #978ca5,
+      45px 80px 0 0 #978ca5,
+      50px 80px 0 0 #978ca5,
+      50px 75px 0 0 #978ca5,
+      55px 75px 0 0 #978ca5,
+      60px 70px 0 0 #978ca5,
+      70px 60px 0 0 #978ca5,
+      70px 55px 0 0 #c7c1d0,
+      65px 60px 0 0 #c7c1d0,
+      60px 60px 0 0 #c7c1d0,
+      55px 60px 0 0 #c7c1d0,
+      50px 60px 0 0 #c7c1d0,
+      45px 65px 0 0 #c7c1d0,
+      50px 65px 0 0 #c7c1d0,
+      55px 65px 0 0 #c7c1d0,
+      60px 65px 0 0 #c7c1d0,
+      35px 70px 0 0 #c7c1d0,
+      40px 70px 0 0 #c7c1d0,
+      45px 70px 0 0 #c7c1d0,
+      50px 70px 0 0 #c7c1d0,
+      55px 70px 0 0 #c7c1d0,
+      45px 75px 0 0 #c7c1d0,
+      40px 75px 0 0 #c7c1d0,
+      35px 75px 0 0 #c7c1d0,
+      30px 75px 0 0 #c7c1d0,
+      25px 75px 0 0 #c7c1d0,
+      -5px 65px 0 0 #ded8e6,
+      0px 65px 0 0 #ded8e6,
+      5px 70px 0 0 #ded8e6,
+      30px 70px 0 0 #ded8e6,
+      25px 70px 0 0 #ded8e6,
+      45px 60px 0 0 #ded8e6,
+      55px 55px 0 0 #ded8e6,
+      55px 50px 0 0 #ded8e6,
+      55px 45px 0 0 #ded8e6,
+      45px 45px 0 0 #3a3640,
+      40px 40px 0 0 #3a3640,
+      35px 40px 0 0 #3a3640,
+      30px 35px 0 0 #3a3640,
+      25px 35px 0 0 #3a3640,
+      20px 40px 0 0 #3a3640,
+      20px 45px 0 0 #3a3640,
+      25px 50px 0 0 #3a3640,
+      30px 50px 0 0 #3a3640,
+      35px 55px 0 0 #3a3640,
+      40px 55px 0 0 #978ca5,
+      40px 50px 0 0 #c7c1d0,
+      35px 50px 0 0 #c7c1d0,
+      30px 45px 0 0 #c7c1d0,
+      25px 20px 0 0 #373737,
+      25px 25px 0 0 #5c536d,
+      20px 20px 0 0 #73688a,
+      20px 25px 0 0 #a697c4,
+      0px 20px 0 0 #373737,
+      0px 25px 0 0 #5c536d,
+      -5px 20px 0 0 #73688a,
+      -5px 25px 0 0 #a697c4,
+      -5px 40px 0 0 #e17373,
+      -5px 45px 0 0 #e17373,
+      -5px 50px 0 0 #e17373,
+      0px 55px 0 0 #cd4f4f,
+      0px 50px 0 0 #cd4f4f,
+      0px 45px 0 0 #cd4f4f,
+      0px 40px 0 0 #cd4f4f,
+      5px 40px 0 0 #cd4f4f,
+      10px 40px 0 0 #e17373,
+      10px 45px 0 0 #b82c2c,
+      5px 45px 0 0 #b82c2c,
+      5px 50px 0 0 #b82c2c,
+      5px 55px 0 0 #b82c2c,
+      10px 50px 0 0 #b82c2c,
+      10px 55px 0 0 #cd4f4f
+     ;
+      animation: float 2s ease-in-out infinite;
+  }
+  .container:after{
+    position:absolute;
+    content:'';top:45px;right:30px;
+    width:5px;height:5px;
+    background:#dedede;
+    box-shadow: 
+      5px 0 0 0 #dedede,
+      10px 0 0 0 #dedede,
+      15px 0 0 0 #d2d2d2,
+      20px 0 0 0 #d2d2d2,
+      25px 0 0 0 #b9b9b9,
+      30px 0 0 0 #b9b9b9,
+      35px 0 0 0 #b9b9b9,
+      40px 0 0 0 #b9b9b9,
+      45px 0 0 0 #b9b9b9,
+      50px 0 0 0 #d2d2d2,
+      55px 0 0 0 #d2d2d2,
+      60px 0 0 0 #dedede,
+      65px 0 0 0 #dedede,
+      70px 0 0 0 #dedede,
+      10px -5px 0 0 #dedede,
+      15px -5px 0 0 #dedede,
+      20px -5px 0 0 #d2d2d2,
+      25px -5px 0 0 #d2d2d2,
+      30px -5px 0 0 #d2d2d2,
+      35px -5px 0 0 #d2d2d2,
+      40px -5px 0 0 #d2d2d2,
+      45px -5px 0 0 #d2d2d2,
+      50px -5px 0 0 #dedede,
+      55px -5px 0 0 #dedede,
+      60px -5px 0 0 #dedede,
+      65px 5px 0 0 #dedede,
+      60px 5px 0 0 #dedede,
+      55px 5px 0 0 #dedede,
+      50px 5px 0 0 #d2d2d2,
+      45px 5px 0 0 #d2d2d2,
+      40px 5px 0 0 #b9b9b9,
+      35px 5px 0 0 #b9b9b9,
+      30px 5px 0 0 #b9b9b9,
+      25px 5px 0 0 #d2d2d2,
+      20px 5px 0 0 #d2d2d2,
+      15px 5px 0 0 #dedede,
+      10px 5px 0 0 #dedede,
+      5px 5px 0 0 #dedede
+     ;
+      animation: vanish 2s ease-in-out infinite;
+  }
+  
+  @keyframes float {
+      0% {
+          transform: translatey(0px);
+      }
+      50% {
+          transform: translatey(-20px);
+      }
+      100% {
+          transform: translatey(0px);
+      }
+  }
+  
+  @keyframes vanish {
+      0% {
+          opacity: 1;
+      }
+      50% {
+          opacity: 0.5;
+      }
+      100% {
+          opacity:1;
+      }
+  }
